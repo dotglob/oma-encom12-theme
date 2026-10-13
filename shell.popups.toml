@@ -1,0 +1,8 @@
+# ENCOM OS 12 — opaque popup cards with a restrained gradient border.
+[popups]
+background = "#080f14"
+background-alpha = 1.0
+text = "#c6dce2"
+border = "hyprland.active-border"
+border-alpha = 0.7
+border-width = 1

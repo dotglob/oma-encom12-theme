@@ -1,0 +1,7 @@
+# ENCOM OS 12 — tooltips sit one step lighter than the desktop.
+[tooltip]
+background = "#10212b"
+background-alpha = 1.0
+text = "#c6dce2"
+border = "#348aac"
+border-alpha = 0.7

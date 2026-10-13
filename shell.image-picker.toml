@@ -1,0 +1,9 @@
+# ENCOM OS 12 — darkest scrim for the carousel picker.
+[image-picker]
+scrim = "#03070a"
+scrim-alpha = 0.6
+text = "#c6dce2"
+selected-border = "#6de0ed"
+selected-border-alpha = 1.0
+unselected-border = "#587782"
+unselected-border-alpha = 0.4

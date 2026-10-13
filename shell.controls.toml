@@ -1,0 +1,24 @@
+# ENCOM OS 12 — muted idle chrome, cyan for hover, focus, and selection.
+[controls]
+normal-color = "#c6dce2"
+normal-fill-alpha = 0.04
+normal-border = "#587782"
+normal-border-width = 1
+normal-border-alpha = 0.45
+hover-cursor-color = "#6de0ed"
+hover-cursor-fill-alpha = 0.10
+hover-cursor-border = "#6de0ed"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.45
+focus-color = "#6de0ed"
+focus-fill-alpha = 0.10
+focus-border = "#6de0ed"
+focus-border-width = 1
+focus-border-alpha = 0.7
+selected-color = "#6de0ed"
+selected-fill-alpha = 0.14
+selected-border = "#6de0ed"
+selected-border-width = 1
+selected-border-alpha = 0.5
+pressed-fill-alpha = 0.22
+selection-fill-alpha = 0.30

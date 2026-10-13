@@ -1,0 +1,9 @@
+# ENCOM OS 12 — amber countdown against the cyan border.
+[notifications]
+background = "#080f14"
+background-alpha = 1.0
+text = "#c6dce2"
+border = "hyprland.active-border"
+border-alpha = 0.7
+border-width = 1
+countdown = "#e8bb78"

@@ -1,0 +1,9 @@
+# ENCOM OS 12 — darker-than-desktop bar, ice text, amber for attention.
+[bar]
+background = "#050a0e"
+background-alpha = 1.0
+text = "#adc8d0"
+active = "#e8bb78"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28

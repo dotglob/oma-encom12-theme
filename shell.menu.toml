@@ -1,0 +1,14 @@
+# ENCOM OS 12 — menu cards match the launcher treatment.
+[menu]
+background = "#080f14"
+background-alpha = 1.0
+text = "#c6dce2"
+border = "hyprland.active-border"
+border-alpha = 0.8
+scrim = "#03070a"
+scrim-alpha = 0.6
+selected-background = "#6de0ed"
+selected-background-alpha = 0.12
+selected-text = "#a7f3f7"
+selected-border = "#6de0ed"
+selected-border-alpha = 0.45

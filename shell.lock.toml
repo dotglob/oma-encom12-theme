@@ -1,0 +1,13 @@
+# ENCOM OS 12 — lock input idles teal, lights cyan while authenticating.
+[lock]
+background = "#080f14"
+background-alpha = 0.95
+text = "#c6dce2"
+placeholder = "#78949e"
+text-error = "#ed8790"
+border = "#348aac"
+border-active = "#6de0ed"
+border-error = "#ed8790"
+border-alpha = 0.85
+selection = "#6de0ed"
+selection-alpha = 0.3

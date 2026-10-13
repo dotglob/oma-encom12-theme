@@ -46,9 +46,11 @@ If you have edited the installed files, preserve your changes before updating. R
 ## What's included
 
 - **Color palette:** coordinated colors for applications supported by Omarchy's theme templates, including terminals and editors.
-- **Shell styling:** matching bar, menus, launcher, notifications, and lock-screen input colors.
-- **Wallpaper:** an original 3840 × 2560 PNG with geometric ENCOM lettering, subtle circular detailing, and a perspective grid.
-- **Editable artwork:** the wallpaper's SVG source in `artwork/encom-os-12.svg`.
+- **Shell styling:** matching bar, menus, launcher, notifications, and lock-screen input colors, shipped as per-section `shell.*.toml` overrides so surfaces Omarchy adds in future releases keep their generated styling.
+- **Wallpapers:** three original 3840 × 2560 PNGs — the cyan signature look, an amber signal variant, and a text-free grid — cycled with `omarchy theme bg next`.
+- **Editable artwork:** the SVG source for each wallpaper in `artwork/`.
+- **Icon theme:** Yaru-blue, selected through `icons.theme`.
+- **Generated configs:** terminal, editor, and app configs (Alacritty, Foot, Ghostty, Kitty, Neovim, btop, Chromium, Helix, keyboard backlight) are produced by Omarchy from `colors.toml` when the theme is applied, so they always track the palette.
 
 | Role | Color |
 | --- | --- |
@@ -62,9 +64,13 @@ The theme does not change your fonts, keybindings, monitor configuration, or idl
 
 ## Customize
 
-Edit `colors.toml` to adjust the shared palette and `shell.toml` to adjust shell surfaces. Then reapply the theme with `omarchy theme set oma-encom12`.
+Edit `colors.toml` to adjust the shared palette and the `shell.*.toml` files to adjust shell surfaces — each file pins one section, and anything you remove falls back to what Omarchy generates from the palette. Then reapply the theme with `omarchy theme set oma-encom12`.
 
-The wallpaper uses JetBrains Mono for its small labels. The included PNG is already rendered; the font is only needed to reproduce those labels when editing or rendering the SVG.
+The wallpapers use JetBrains Mono for their small labels. The included PNGs are already rendered; the font is only needed to reproduce those labels when editing or rendering the SVGs (`rsvg-convert -w 3840 -h 2560 artwork/<file>.svg -o backgrounds/<file>.png`).
+
+## License
+
+MIT — see [LICENSE](LICENSE).
 
 ---
 

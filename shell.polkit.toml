@@ -1,0 +1,12 @@
+# ENCOM OS 12 — auth prompt with the shared scrim and gradient border.
+[polkit]
+background = "#080f14"
+background-alpha = 1.0
+text = "#c6dce2"
+text-error = "#ed8790"
+border = "hyprland.active-border"
+border-error = "#ed8790"
+border-alpha = 0.8
+scrim = "#03070a"
+scrim-alpha = 0.6
+accent = "#6de0ed"
